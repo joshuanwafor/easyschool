@@ -228,62 +228,63 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-[#1e3a5f] text-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h2>
-            <p className="text-xl text-blue-100">Get in touch with us today</p>
+      <section id="contact" className="py-24 bg-gradient-to-br from-[#1e3a5f] via-[#2d4f7a] to-[#1e3a5f] text-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Contact Us</h2>
+            <p className="text-xl md:text-2xl text-blue-100/90 font-medium">Get in touch with us today</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Head Office */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-              <h3 className="text-2xl font-bold mb-4">Head Office</h3>
-              <p className="text-blue-100 mb-4">
+            <div className="group bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:border-white/40 hover:bg-white/15 transition-all duration-500 hover:scale-105">
+              <h3 className="text-2xl font-bold mb-5">Head Office</h3>
+              <p className="text-blue-100/90 mb-6 leading-relaxed font-medium">
                 20 Ikorodu Road<br />
                 Jibowu Bus-Stop<br />
                 Yaba, Lagos
               </p>
-              <a href="tel:+2348038374575" className="text-white hover:text-blue-200 font-semibold flex items-center">
-                <span className="mr-2">📞</span> +234 803 837 4575
+              <a href="tel:+2348038374575" className="text-white hover:text-blue-200 font-semibold flex items-center group-hover:translate-x-2 transition-transform duration-300">
+                <span className="mr-3 text-xl">📞</span> +234 803 837 4575
               </a>
             </div>
 
             {/* Branch Office */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-              <h3 className="text-2xl font-bold mb-4">Branch Office</h3>
-              <p className="text-blue-100 mb-4">
+            <div className="group bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:border-white/40 hover:bg-white/15 transition-all duration-500 hover:scale-105">
+              <h3 className="text-2xl font-bold mb-5">Branch Office</h3>
+              <p className="text-blue-100/90 mb-6 leading-relaxed font-medium">
                 10 Udo Udoma<br />
                 Asokoro<br />
                 Abuja
               </p>
-              <a href="tel:+2348177320689" className="text-white hover:text-blue-200 font-semibold flex items-center">
-                <span className="mr-2">📞</span> +234 817 732 0689
+              <a href="tel:+2348177320689" className="text-white hover:text-blue-200 font-semibold flex items-center group-hover:translate-x-2 transition-transform duration-300">
+                <span className="mr-3 text-xl">📞</span> +234 817 732 0689
               </a>
             </div>
 
             {/* UK Office */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-              <h3 className="text-2xl font-bold mb-4">UK Office</h3>
-              <p className="text-blue-100 mb-4">
+            <div className="group bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:border-white/40 hover:bg-white/15 transition-all duration-500 hover:scale-105">
+              <h3 className="text-2xl font-bold mb-5">UK Office</h3>
+              <p className="text-blue-100/90 mb-6 leading-relaxed font-medium">
                 Easy School of Languages<br />
                 (UK) Ltd.
               </p>
-              <a href="tel:+447442486635" className="text-white hover:text-blue-200 font-semibold flex items-center">
-                <span className="mr-2">📞</span> +44 744 248 6635
+              <a href="tel:+447442486635" className="text-white hover:text-blue-200 font-semibold flex items-center group-hover:translate-x-2 transition-transform duration-300">
+                <span className="mr-3 text-xl">📞</span> +44 744 248 6635
               </a>
             </div>
           </div>
 
-          <div className="mt-12 text-center">
+          <div className="mt-16 text-center">
             <a 
               href="tel:+2348038374575" 
-              className="inline-block bg-white text-[#1e3a5f] px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition-colors"
+              className="inline-block bg-white text-[#1e3a5f] px-10 py-5 rounded-2xl font-bold text-lg md:text-xl hover:bg-blue-50 transition-all duration-500 transform hover:scale-105 active:scale-95 border border-white/20"
             >
               📞 Call Us Now: +234 803 837 4575
             </a>
-            <p className="mt-6 text-blue-100">
-              Website: <a href="https://www.easyschooloflanguagesnigeria.com" className="underline hover:text-white" target="_blank" rel="noopener noreferrer">
+            <p className="mt-8 text-blue-100/90 text-lg">
+              Website: <a href="https://www.easyschooloflanguagesnigeria.com" className="underline hover:text-white font-semibold transition-colors duration-300" target="_blank" rel="noopener noreferrer">
                 www.easyschooloflanguagesnigeria.com
               </a>
             </p>
