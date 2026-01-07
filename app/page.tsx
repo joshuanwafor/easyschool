@@ -1,26 +1,10 @@
-import Image from "next/image";
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-white shadow-md">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-20 items-center justify-between">
-            <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-[#1e3a5f]">Easy School of Languages</h1>
-            </div>
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="#services" className="text-gray-700 hover:text-[#1e3a5f] transition-colors">Services</a>
-              <a href="#about" className="text-gray-700 hover:text-[#1e3a5f] transition-colors">About</a>
-              <a href="#contact" className="text-gray-700 hover:text-[#1e3a5f] transition-colors">Contact</a>
-              <a href="tel:+2348038374575" className="bg-[#1e3a5f] text-white px-6 py-2 rounded-lg hover:bg-[#152a47] transition-colors">
-                Call Us
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Header />
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-50 to-white py-20 lg:py-32">
@@ -285,21 +269,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-[#152a47] text-white py-8">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <p className="text-lg font-semibold mb-2">Easy School of Languages</p>
-            <p className="text-blue-200 mb-4">Professional Language & Tech Training</p>
-            <p className="text-sm text-blue-300">
-              © {new Date().getFullYear()} Easy School of Languages. All rights reserved.
-            </p>
-            <p className="text-sm text-blue-300 mt-2">
-              Recognized by Lagos State Ministry of Education (Since 2022)
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
