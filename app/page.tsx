@@ -15,7 +15,7 @@ export default function Home() {
           <div className="text-center">
             <div className="mb-8 animate-fade-in">
               <span className="inline-block bg-gradient-to-r from-[#1e3a5f]/10 to-[#2d4f7a]/10 backdrop-blur-sm text-[#1e3a5f] px-6 py-3 rounded-full text-sm font-semibold border border-[#1e3a5f]/20">
-                ✓ Approved by Lagos State Ministry of Education (Since 2022)
+                ✓ Established in November 1992 • Over 34 Years of Excellence
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-[#1e3a5f] mb-8 leading-tight tracking-tight">
@@ -200,17 +200,20 @@ export default function Home() {
               </span>
             </h2>
           </div>
-          <div className="max-w-5xl mx-auto">
-            <div className="bg-white/80 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-blue-100/60">
+          <div className="max-w-6xl mx-auto">
+            <div className="bg-white/80 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-blue-100/60 mb-12">
+              <p className="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed font-medium">
+                ESL is a leading language institution in Nigeria, registered and operating for over 34 years. Established in November 1992, ESL provides both linguistic and cultural education across a wide range of international languages in Nigeria.
+              </p>
+              <p className="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed font-medium">
+                Alongside Alliance Française and the Goethe Cultural Centre, Easy School of Languages created a platform that gives Nigerians and learners from other non-English-speaking countries the opportunity to speak, read, and write any language of their choice.
+              </p>
               <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed font-medium">
-                Easy School of Languages is a recognized educational institution approved by the Lagos State Ministry of Education since 2022. We are committed to providing excellence in language and technology education.
+                Easy School of Languages was founded by <span className="font-semibold text-[#1e3a5f]">Ezinwanne Amazu Ezee</span>.
               </p>
-              <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed font-medium">
-                Our mission is to help students speak, read, and write easily in multiple languages while also providing cutting-edge technology training. With over 22 years of experience, we have helped thousands of students achieve their academic and career goals.
-              </p>
-              <div className="flex items-center justify-center gap-6 flex-wrap">
+              <div className="flex items-center justify-center gap-6 flex-wrap pt-6 border-t border-blue-100/60">
                 <div className="bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white px-8 py-6 rounded-2xl transform hover:scale-105 transition-all duration-500 border border-[#1e3a5f]/20">
-                  <div className="text-3xl md:text-4xl font-bold mb-1">22+</div>
+                  <div className="text-3xl md:text-4xl font-bold mb-1">34+</div>
                   <div className="text-sm md:text-base font-semibold opacity-90">Years of Excellence</div>
                 </div>
                 <div className="bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white px-8 py-6 rounded-2xl transform hover:scale-105 transition-all duration-500 border border-[#1e3a5f]/20">
@@ -220,6 +223,65 @@ export default function Home() {
                 <div className="bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white px-8 py-6 rounded-2xl transform hover:scale-105 transition-all duration-500 border border-[#1e3a5f]/20">
                   <div className="text-3xl md:text-4xl font-bold mb-1">4</div>
                   <div className="text-sm md:text-base font-semibold opacity-90">Languages</div>
+                </div>
+              </div>
+            </div>
+
+            {/* 12 Reasons Section */}
+            <div className="bg-white/80 backdrop-blur-sm p-10 md:p-12 rounded-3xl border border-blue-100/60">
+              <h3 className="text-3xl md:text-4xl font-bold text-[#1e3a5f] mb-8 text-center">
+                <span className="bg-gradient-to-r from-[#1e3a5f] to-[#2d4f7a] bg-clip-text text-transparent">
+                  12 Reasons to Visit or Call Easy School of Languages (ESL)
+                </span>
+              </h3>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">1</span>
+                  <p className="text-gray-700 font-medium">Over 34 years of training excellence</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">2</span>
+                  <p className="text-gray-700 font-medium">Nigeria's first privately owned language institution with a long-standing exceptional reputation</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">3</span>
+                  <p className="text-gray-700 font-medium">A fully registered and highly trusted institution</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">4</span>
+                  <p className="text-gray-700 font-medium">Professional language and technology training</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">5</span>
+                  <p className="text-gray-700 font-medium">Pioneers of computer studies and multilingual secretarial studies</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">6</span>
+                  <p className="text-gray-700 font-medium">Affiliated with top tech companies to deliver the latest digital skills</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">7</span>
+                  <p className="text-gray-700 font-medium">Experienced and certified instructors</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">8</span>
+                  <p className="text-gray-700 font-medium">A wide range of international languages</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">9</span>
+                  <p className="text-gray-700 font-medium">Strong focus on language and cultural competence</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">10</span>
+                  <p className="text-gray-700 font-medium">Flexible onsite and online learning options</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">11</span>
+                  <p className="text-gray-700 font-medium">Modern, AI-assisted learning tools</p>
+                </div>
+                <div className="flex items-start gap-3 p-4 rounded-xl hover:bg-blue-50/50 transition-all duration-300 group">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1e3a5f] to-[#2d4f7a] text-white rounded-full flex items-center justify-center font-bold text-sm group-hover:scale-110 transition-transform duration-300">12</span>
+                  <p className="text-gray-700 font-medium">A strong alumni presence across the world</p>
                 </div>
               </div>
             </div>
