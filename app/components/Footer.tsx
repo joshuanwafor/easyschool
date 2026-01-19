@@ -12,7 +12,7 @@ export default function Footer() {
               Professional Language & Tech Training
             </p>
             <p className="text-sm text-blue-300">
-              Recognized by Lagos State Ministry of Education (Since 2022)
+              Recognized by Lagos State Ministry of Education (Since 1992)
             </p>
           </div>
 
