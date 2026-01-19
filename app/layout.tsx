@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Easy School of Languages - Professional Language & Tech Training",
   description: "Learn foreign languages (English, French, German, Spanish), prepare for international exams (IELTS, TEF, TCF, DELF, DALF, Goethe, TELC), and master tech courses (Cybersecurity, AI, Machine Learning). Online & offline classes available.",
+  icons: {
+    icon: '/logotemp.png',
+  },
 };
 
 export default function RootLayout({
@@ -24,9 +27,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/logotemp.png" />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
